@@ -72,6 +72,7 @@
             android:padding="15dp"
             android:textColor="#7A8089"
             android:textSize="18sp"
+            android:onClick="onTapOption"
             tools:text="Apple" />
 
         <TextView
@@ -87,6 +88,7 @@
             android:padding="15dp"
             android:textColor="#7A8089"
             android:textSize="18sp"
+            android:onClick="onTapOption"
             tools:text="Google" />
 
         <TextView
@@ -102,6 +104,7 @@
             android:padding="15dp"
             android:textColor="#7A8089"
             android:textSize="18sp"
+            android:onClick="onTapOption"
             tools:text="Android Inc." />
 
         <TextView
@@ -117,6 +120,7 @@
             android:padding="15dp"
             android:textColor="#7A8089"
             android:textSize="18sp"
+            android:onClick="onTapOption"
             tools:text="Nokia" />
 
         <Button
@@ -128,6 +132,7 @@
             android:text="SUBMIT"
             android:textColor="@android:color/white"
             android:textSize="18sp"
+            android:onClick="onTapOption"
             android:textStyle="bold" />
 
     </LinearLayout>
